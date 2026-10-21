@@ -73,7 +73,7 @@ python code/train.py \
   --max_input_length 512 \
   --lr 1e-3 \
   --batch_size 16 \
-  --ckpt_folder ./REMI_BPE_checkpoints \
+  --ckpt_folder ./checkpoints \
   --dict_path ./dictionary.pkl
 ```
 
@@ -158,7 +158,7 @@ python code/train_gpt.py \
   --max_input_length 512 \
   --lr 1e-3 \
   --batch_size 16 \
-  --ckpt_folder ./GPT2_checkpoints \
+  --ckpt_folder ./checkpoints \
   --dict_path ./dictionary.pkl
 ```
 
@@ -180,7 +180,7 @@ python inference_gpt.py \
   --temp 0.7 \
   --topk 10 \
   --dict_path ../dictionary.pkl \
-  --ckpt_dir ../GPT2_checkpoints/epoch_100.pkl \
+  --ckpt_dir ../checkpoints/GOT2_checkpoint.pkl \
   --output_folder ../results_gpt2
 cd ..
 ```
