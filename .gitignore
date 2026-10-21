@@ -1,0 +1,26 @@
+# Model checkpoints
+checkpoint/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# non-code file
+*.pdf
+*.pptx
+*.zip
+*.wav
+*.sf2
+
+# results
+100_*/
+config*/
+results*/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

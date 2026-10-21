@@ -1,0 +1,12 @@
+miditok
+miditoolkit
+numpy
+pandas
+torch
+torchaudio
+scikit-learn
+scipy
+tqdm
+pickle
+midi2audio
+transformers
