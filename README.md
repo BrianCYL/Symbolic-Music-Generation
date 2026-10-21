@@ -13,7 +13,7 @@ Install the dependencies listed by running:
 pip install -r requirements.txt
 ```
 
-Download the [dataset](https://drive.google.com/drive/folders/1E5Xrk5TN2sPXYz1idZYxVIEterZpqwyY?usp=sharing), [dictionary](https://drive.google.com/file/d/1op--djXmPV86QJ7Ayx044yZoHB5-JG0E/view?usp=sharing), [prompt song](https://drive.google.com/drive/folders/1JveK9tin7IYxhSyQj8EzCtJ7TFk-7c_0?usp=sharing) and the
+Download the [dataset](https://drive.google.com/drive/folders/1E5Xrk5TN2sPXYz1idZYxVIEterZpqwyY?usp=sharing), [dictionary](https://drive.google.com/file/d/1op--djXmPV86QJ7Ayx044yZoHB5-JG0E/view?usp=sharing), [prompt song](https://drive.google.com/drive/folders/1JveK9tin7IYxhSyQj8EzCtJ7TFk-7c_0?usp=sharing), [trained tokenizer checkpoints](https://drive.google.com/drive/folders/1sB3KnhX-iPHF8egbpmmgl-beVkGRDwgr?usp=sharing), [model checkpoints](https://drive.google.com/drive/folders/1MUvZtm4qQ8TEoz5UlRHhVR0tRc9rRbg7?usp=sharing), and the
 `GeneralUser-GS.sf2` SoundFont from 
 [here](https://drive.google.com/file/d/1IziuDULljB_8xAJTcyhk_ylAAmB2o11Q/view?usp=sharing).
 
@@ -180,7 +180,7 @@ python inference_gpt.py \
   --temp 0.7 \
   --topk 10 \
   --dict_path ../dictionary.pkl \
-  --ckpt_dir ../checkpoints/GOT2_checkpoint.pkl \
+  --ckpt_dir ../checkpoints/GPT2_checkpoint.pkl \
   --output_folder ../results_gpt2
 cd ..
 ```
