@@ -1,7 +1,7 @@
 # Symbolic Music Generation
 
-This repository implements symbolic music generation with a Transformer-XL
-model. MIDI files are converted into event tokens, and the model generates
+This repository implements symbolic music generation with both Transformer-XL and GPT-2
+models. MIDI files are converted into event tokens, and the model generates
 continuations from prompt songs. Generated MIDI files can also be rendered as
 WAV audio with a SoundFont.
 
